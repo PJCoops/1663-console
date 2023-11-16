@@ -1,3 +1,10 @@
+# To Run Custom UI locally
+
+- Download Chirpstack-Docker from their GitHub
+- Run Chirpstack-Docker
+- Run this repo from the UI directort with yarn start
+
+
 # ChirpStack open-source LoRaWAN(R) Network Server
 
 ![CI](https://github.com/chirpstack/chirpstack/actions/workflows/main.yml/badge.svg?branch=master)
