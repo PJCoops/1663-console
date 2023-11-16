@@ -1,0 +1,196 @@
+@font-face {
+  font-family: TT Hoves;
+  font-weight: 400;
+  src: url("styles/fonts/TTHoves/TT Hoves Regular.ttf") format("ttf"), url("styles/fonts/TTHoves/TT Hoves Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: TT Hoves;
+  font-weight: 500;
+  src: url("styles/fonts/TTHoves/TT Hoves Medium.ttf") format("ttf"), url("styles/fonts/TTHoves/TT Hoves Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: TT Hoves;
+  font-weight: 600;
+  src: url("styles/fonts/TTHoves/TT Hoves DemiBold.ttf") format("ttf"), url("styles/fonts/TTHoves/TT Hoves DemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: TT Hoves;
+  font-weight: 700;
+  src: url("styles/fonts/TTHoves/TT Hoves Bold.ttf") format("ttf"), url("styles/fonts/TTHoves/TT Hoves Bold.woff") format("woff");
+}
+
+.ant-page-header-heading-title {
+  font-weight: 400 !important;
+  font-size: 28px !important;
+  font-family: TT Hoves !important;
+}
+
+a {
+  color: #7DF74E;
+}
+
+a:hover {
+  color: #8DFCA4;
+}
+
+.ant-btn-primary {
+  color: #000000;
+}
+
+.ant-btn-primary:hover {
+  color: #000000 !important;
+}
+
+.ant-layout {
+  background-color: #000000;
+}
+
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  border-inline-end: 0;
+  background-color: #000000;
+}
+
+.ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background-color: #000000;
+}
+
+.ant-layout .ant-layout-sider {
+background-color: #000000;
+border-right: 1px solid #303030;
+margin-top: 20px;
+}
+
+.layout {
+  margin-left: 300px;
+}
+
+.ant-layout-header {
+  padding: 0 25px 0 25px;
+}
+
+.layout-header {
+  background: #000000;
+  /* Leaflet JS zoom controls have z-index 1000. */
+  z-index: 1001;
+  border-bottom: 1px #303030 solid;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+}
+
+.layout-header .logo {
+  float: left;
+  margin-top: 18px;
+  height: 38px;
+}
+
+.layout-header .actions {
+  float: right;
+  height: 75px;
+  margin-top: 6px;
+}
+
+.layout-header .actions>div {
+  display: inline;
+  padding-left: 24px;
+}
+
+.layout-menu {
+  padding-top: 85px;
+  overflow: auto;
+  position: fixed !important;
+  height: 100vh;
+  left: 0;
+}
+
+.layout-menu .organiation-select {
+  margin-left: 24px;
+  margin-bottom: 12px;
+  width: 252px;
+}
+
+.layout-content {
+  margin-top: 65px;
+}
+
+.layout-content .content-header>* {
+  float: right;
+}
+
+.layout-content .content-header h3 {
+  float: left;
+  display: inline;
+}
+
+.spinner {
+  text-align: center;
+}
+
+pre {
+  margin: 0px;
+}
+
+.chart-doughnut {
+  max-width: 350px;
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+
+.chart-doughnut>canvas {
+  width: 100vh;
+}
+
+.dashboard-chart>.ant-card-body {
+  height: 300px;
+}
+
+.integration-card {
+  margin-bottom: 24px;
+}
+
+.integration-card .ant-card-meta-description {
+  min-height: 75px;
+}
+
+.search-dropdown .ant-select-dropdown-menu-item-group-title {
+  color: #666;
+  font-weight: bold;
+}
+
+.search-dropdown .ant-select-dropdown-menu-item-group {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.search-dropdown .ant-select-dropdown-menu-item {
+  padding-left: 16px;
+}
+
+.search-dropdown .ant-select-dropdown-menu-item.show-all {
+  text-align: center;
+  cursor: default;
+}
+
+.search-dropdown .ant-select-dropdown-menu {
+  max-height: 600px;
+}
+
+.CodeMirror {
+  height: 600px;
+}
+
+.ant-drawer {
+  padding-top: 64px;
+}
+
+.ant-drawer-body {
+  padding-bottom: 88px;
+  /* 64 + 24 */
+}
+
+.input-code input {
+  font-family: monospace !important;
+}
